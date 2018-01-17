@@ -25,7 +25,7 @@ if (room==="ballroom" && suspect==="Mr. Kalehoff") {
     solved=false;
 }
 
-if (solved) {
+if (solved===true) {
 	console.log(suspect+" did it in the "+room+" with the "+weapon+"!");
 } else {
     console.log("Mystery not solved!");
