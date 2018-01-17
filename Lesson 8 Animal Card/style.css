@@ -1,0 +1,52 @@
+html {
+	font-family: sans-serif;
+}
+
+.card {
+	width: 300px;
+	padding: 5px 20px;
+	border: 1px solid #c1c1c1;
+  	box-shadow: 6px 5px 19px 0px rgba(50, 50, 50, 0.73);
+	background-color: rgba(249, 124, 86, 0.4);
+}
+
+h3{
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.information {
+	border: 1px solid #c1c1c1;
+	padding: 10px 20px;
+  	margin-bottom: 10px;
+  	border-radius: 3px;
+  	background-color: #FCEFE7;
+}
+
+img {
+	margin-bottom: 5px;
+  	width: 300px;
+  	border-radius: 3px;
+  	border: 1px solid #c1c1c1;
+}
+
+.fact {
+	font-style: italic;
+	margin-top: 0;
+	font-weight: 200;
+}
+
+ul {
+	list-style: none;
+  	margin-left: 0;
+  	padding-left: 0;
+}
+
+.category {
+	font-weight: bold;
+}
+
+.description {
+  	margin-bottom: 0;
+  	font-weight: 300;
+}
