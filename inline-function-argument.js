@@ -10,7 +10,7 @@ function emotions(myString, myFunc) {
 // your code goes here
 // call the emotions function here and pass in an
 // inline function expression
-emotions("happy", function laugh(has) {
+emotions("happy", function(has) {
                                 var laughter = "";
                                 for (var i=1; i<=has;i++) {
                                     laughter+="ha"; 
