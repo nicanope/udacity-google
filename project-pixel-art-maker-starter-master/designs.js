@@ -49,12 +49,18 @@ form.addEventListener('submit', function(event) {
 let table = document.getElementById('pixelCanvas');
 let mouseDown = false
 
+
 table.addEventListener('mousedown', () => mouseDown = true)
 table.addEventListener('mouseup', () => mouseDown = false)
 table.addEventListener('mouseover', function(event) {
 	if (!mouseDown) { return }
 	let td = event.target;
 	td.style.backgroundColor = color.value;
+})
+table.addEventListener('click', function(event) {
+	if (mouseDown) {return}
+  	let td = event.target;
+  td.style.backgroundColor = color.value;
 })
 
 clear.addEventListener('click', () => {
